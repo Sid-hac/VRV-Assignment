@@ -45,10 +45,10 @@ const POST = async (req: Request) => {
     return NextResponse.json(user);
   } catch (error) {
     if (error instanceof Error) {
-      console.error('Error fetching users:', error.message);  // Log the message
+      console.error('Error fetching users:', error.message);  
       return NextResponse.json({ error: 'Failed to create user' }, { status: 500 });
     } else {
-      console.error('Unknown error:', error);  // In case it's not a standard Error object
+      console.error('Unknown error:', error);  
     }
 
   }
@@ -65,13 +65,13 @@ const DELETE = async(req : Request ) => {
 
   const {id} = request;
 
-  // Validate input
+  
   if (!id || typeof id !== "string") {
     return NextResponse.json({ error: "User ID is required" } ,{ status : 400});
   }
 
   try {
-    // Delete the user from the database
+
     const deletedUser = await prisma.user.delete({
       where: { id },
     });

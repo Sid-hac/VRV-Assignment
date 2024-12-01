@@ -1,7 +1,4 @@
-// import { Mail, MailOpen } from "lucide-react"
-// import { Separator } from "./ui/separator"
-// import { useTheme } from "next-themes"
-// import { cn } from "@/lib/utils"
+
 import { CirclePlay, NotepadText } from "lucide-react"
 import { Button } from "./ui/button"
 import { cn } from "@/lib/utils"

@@ -36,15 +36,13 @@ const LoginForm = () => {
           const data = await response.json();
           const { token , user } = data;
 
-          // Save token to localStorage
+          
           localStorage.setItem("authToken", token);
           localStorage.setItem("user", JSON.stringify(user));
 
           console.log("Login successful:", data);
     
-          // Example: Redirect user after login or save token
-          // localStorage.setItem('token', data.token); // Save token
-          // window.location.href = '/dashboard'; // Redirect user
+       
           if(data.role === 'admin'){
             window.location.href = '/admin'; 
           }else {

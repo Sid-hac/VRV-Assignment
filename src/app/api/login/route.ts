@@ -20,7 +20,7 @@ const POST = async (req: Request) => {
   }
 
   try {
-    // Simulate database user lookup
+    
     const user = await prisma.user.findUnique({
       where: { email },
     });
@@ -29,7 +29,7 @@ const POST = async (req: Request) => {
       return NextResponse.json({ error: 'User not found' } , {status : 400});
     }
 
-    // Generate JWT token
+    
     const token = jwt.sign({ id: user.id, email: user.email }, SECRET_KEY, {
       expiresIn: '1h',
     });

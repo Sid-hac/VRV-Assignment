@@ -11,13 +11,13 @@ const  PUT = async(req: Request)  => {
 
   const { id, role } = body;
 
-  // Validate input
+ 
   if (!id || !role) {
     return NextResponse.json({ error: "User ID and role are required" } , {status : 400});
   }
 
   try {
-    // Update the user's role
+
     const updatedUser = await prisma.user.update({
       where: { id },
       data: { role },

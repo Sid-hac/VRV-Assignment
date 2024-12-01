@@ -1,33 +1,19 @@
 "use client"
 import { cn } from "@/lib/utils"
 import { useTheme } from "next-themes"
-// import ToggleMode from "./ToggleMode"
-// import WorkspaceDropdown from "./WorkspaceDropdown"
+
 import { Separator } from "./ui/separator"
 import ToggleMode from "./Togglemode"
 import Hero from "./Hero"
 import RightBar from "./Rightbar"
 import Users from "./Users"
-// import EpmtyWorkspace from "./EpmtyWorkspace"
-// import EmailWorkspace from "./EmailWorkspace"
-// import { Suspense } from "react"
 
 
 
-// type Props = {
-//     selectedIcon: string | null
-// }
+
 
 const Dashboard = () => {
-    // let isClickedHome ;
-    // let isClickedInbox ;
-
-    // if(props.selectedIcon === "House"){
-    //     isClickedHome = true
-    // }
-    // if(props.selectedIcon === "Inbox"){
-    //     isClickedInbox = true
-    // }
+   
 
     const { theme } = useTheme()
 
@@ -47,8 +33,6 @@ const Dashboard = () => {
             </div>
             <Separator />
 
-            {/* {isClickedHome && <EpmtyWorkspace/>} */}
-            {/* {isClickedInbox && <EmailWorkspace/>} */}
             <div className="flex flex-grow max-sm:flex-col space-y-10 gap-5 justify-between items-start w-full h-full ">
 
                 <div className=" sm:w-2/3 h-full" >

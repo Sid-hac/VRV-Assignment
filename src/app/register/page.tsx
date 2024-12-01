@@ -37,9 +37,9 @@ const RegisterForm = () => {
     
           const data = await response.json();
           setMessage(`User ${data.name} added successfully!`);
-        //   setEmail('');
-        //   setPassword('');
-        //   setName('');
+          setEmail('');
+          setPassword('');
+          setName('');
         } catch (error: unknown ) {
             if (error instanceof Error) {
                 setMessage(error.message);
