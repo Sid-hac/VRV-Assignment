@@ -3,6 +3,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 const LoginForm = () => {
@@ -109,6 +110,7 @@ const LoginForm = () => {
                     {loading && <span className="text-white"><Loader2 className="w-5 h-5 animate-spin gap-2" /></span>}
                     
                 </Button>
+                 <p className="text-sm text-center flex justify-center items-center gap-3" >Not registered yet! <Link href="/register" className="text-blue-600 font-bold  " >sign-up?</Link></p>
                 <p className="text-sm font-bold" > {message} </p>
             </form>
         </div>
