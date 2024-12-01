@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Credentials for Testing
+## Credentials for Testing
  -Admin Access:
      -Email: sidd@gmail.com
      -Password: sid1234
