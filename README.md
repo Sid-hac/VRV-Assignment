@@ -32,6 +32,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## Preview
 ![Dark theme](https://github.com/Sid-hac/VRV-Assignment/blob/bb683deb949960e9c124d855edf73c39a38bfda2/Screenshot%202024-12-02%20160253.png)
 
+![light theme](https://github.com/Sid-hac/VRV-Assignment/blob/fdbde68cdbc1e9882fb3f00f400f40c6474e3f3a/Screenshot%202024-12-02%20160310.png)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
