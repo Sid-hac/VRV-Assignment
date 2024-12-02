@@ -30,8 +30,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Preview
+#Dark theme
 ![Dark theme](https://github.com/Sid-hac/VRV-Assignment/blob/bb683deb949960e9c124d855edf73c39a38bfda2/Screenshot%202024-12-02%20160253.png)
-
+#Light theme
 ![light theme](https://github.com/Sid-hac/VRV-Assignment/blob/fdbde68cdbc1e9882fb3f00f400f40c6474e3f3a/Screenshot%202024-12-02%20160310.png)
 
 ## Learn More
